@@ -1,68 +1,73 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-header nav ol {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 15px;
-}
-
-ul,
-figure {
-    margin: 10px;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    padding-top: 90px;
-}
-
-.buscador {
-    display: flex;
-    justify-content: center;
-}
-
-.boton-principal {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 40px;
-    background-color: white;
-    border: 1px solid rgb(212, 211, 211);
-    border-radius: 50px;
-}
-
-.boton-segundo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 30px;
-    height: 36px;
-}
-
-.boton1,
-.boton2 {
-    margin-right: 10px;
-    width: 160px;
-    border: none;
-}
-
-p {
-    margin: 10px;
-}
-
-
-/*div {
-    display: flex;
-}*/
-
-footer div {
-    display: flex;
-}
-
-.derecha {
-    justify-content: flex-end;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header nav ol {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 15px;
+    }
+    
+    ul,
+    figure {
+        margin: 10px;
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+    }
+    
+    .buscador {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .boton-principal {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        height: 40px;
+        background-color: white;
+        border: 1px solid rgb(212, 211, 211);
+        border-radius: 50px;
+    }
+    
+    .boton-segundo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+        height: 36px;
+    }
+    
+    .boton1,
+    .boton2 {
+        margin-right: 10px;
+        width: 160px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    p {
+        margin: 10px;
+    }
+    
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(233, 236, 233);
+        margin-top: 230px;
+    }
+    
+    .izquierda {
+        display: flex;
+    }
+    
+    .derecha {
+        display: flex;
+    }
